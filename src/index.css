@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Qwigley");
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+
+html {
+  margin-bottom: -50px;
+}
+
+body {
+  font-family: "Bitter", serif;
+  text-decoration-color: #424242;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: #ffc107;
+  padding: 0 100px;
+  opacity: 0.9;
+ 
+}
+.footerrow {
+  background-color: #ffc107;
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 0;
+  padding:25px;
+}
+.carousel {
+  height:200px !important;
+}
+@media screen and (max-width: 1000px) {
+  .navbar {
+    padding: 0px;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  .navbar .brand-logo {
+    font-size: 40px !important;
+  }
+}
+.navbar ul li:hover {
+  background-color: #212121;
+}
+
+nav .brand-logo {
+  font-family: "Qwigley", cursive;
+  color: aliceblue;
+  font-size: 3.2rem !important;
+}
+
+h1 {
+  font-family: "Qwigley", cursive;
+  z-index: 99;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 400px;
+  font-size: 120px;
+  color: aliceblue;
+}
+
+.imageprops1 {
+  max-width: 100%;
+  max-height: 100%;
+}
+.smallerparallax {
+  height: 250px;
+  text-align: center;
+  color: #424242;
+  padding: 60px 0px;
+}
+.wrapper {
+  text-align: center !important;
+}
+.colprops {
+  padding: 115px 0px;
+  display: inline-block !important;
+}
+
+.button {
+  background-color: #ffc107;
+  border-radius: 0%;
+}
+.button:hover {
+  background-color:#424242;
+}
+
+h2 {
+  font-family: "Qwigley", cursive;
+  text-align: center;
+  vertical-align: middle;
+  color: aliceblue;
+}
